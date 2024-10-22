@@ -23,13 +23,13 @@ public class UserRepository {
     }
     public List<Usuario> listAll(){
         List<Usuario> usuarios = new ArrayList<>();
-        usuarios.add(new Usuario("gleyson","password"));
-        usuarios.add(new Usuario("frank","masterpass"));
+        usuarios.add(new Usuario("isaque","password"));
+        usuarios.add(new Usuario("isq","masterpass"));
         return usuarios;
     }
     public Usuario finById(Integer id){
         System.out.println(String.format("GET/id - Recebendo o id: %d para localizar um usuário", id));
-        return new Usuario("gleyson","password");
+        return new Usuario("isaque","password");
     }
 
 }
